@@ -1,2 +1,3 @@
-# airdrops
-A repo to show script used to compute airdrops
+# Airdrops
+
+A repo to show scripts used to compute airdrops, as well as the results of these scripts.
