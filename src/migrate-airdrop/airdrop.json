@@ -1,0 +1,164 @@
+{
+  "rewardToken": "0xac27fa800955849d6d17cc8952ba9dd6eaa66187",
+  "rewards": {
+    "0x246A13358Fb27523642D86367a51C2aEB137Ac6C": {
+      "Swap of 400.0 UP on Tue Aug 13 2024 05:39:49 GMT-0400 (Eastern Daylight Time)": "10000000000000000000",
+      "Swap of 1000.0 UP on Wed Aug 14 2024 04:52:43 GMT-0400 (Eastern Daylight Time)": "25000000000000000000"
+    },
+    "0x9d3ea9e9adde71141f4534dB3b9B80dF3D03Ee5f": {
+      "Swap of 100.0 UP on Tue Aug 13 2024 08:54:13 GMT-0400 (Eastern Daylight Time)": "2500000000000000000",
+      "Swap of 100.0 UP on Tue Aug 13 2024 09:47:39 GMT-0400 (Eastern Daylight Time)": "2500000000000000000",
+      "Swap of 100.0 UP on Tue Aug 13 2024 10:16:27 GMT-0400 (Eastern Daylight Time)": "2500000000000000000",
+      "Swap of 100.0 UP on Tue Aug 13 2024 10:46:11 GMT-0400 (Eastern Daylight Time)": "2500000000000000000",
+      "Swap of 100.0 UP on Wed Aug 14 2024 11:05:11 GMT-0400 (Eastern Daylight Time)": "2500000000000000000"
+    },
+    "0xED59e0fB105F003e508A1f59Fe9F4AE5a755BDeD": {
+      "Swap of 24.510359894537121 UP on Wed Aug 14 2024 13:20:07 GMT-0400 (Eastern Daylight Time)": "612758997363428025",
+      "Swap of 99999.9 UP on Wed Sep 18 2024 18:11:59 GMT-0400 (Eastern Daylight Time)": "149999850000000000000"
+    },
+    "0x6aeC5228fDA60525F59AfC773Ada7df6a6d8e43f": {
+      "Swap of 4839930.0 UP on Wed Aug 14 2024 19:48:11 GMT-0400 (Eastern Daylight Time)": "120998250000000000000000"
+    },
+    "0x5FEDB4362EC2c4fbae539223d5ACC63F99735e1C": {
+      "Swap of 2635150.0 UP on Wed Aug 14 2024 22:56:27 GMT-0400 (Eastern Daylight Time)": "65878750000000000000000"
+    },
+    "0x1111fd96fD579642c0D589cd477188e29b47b738": {
+      "Swap of 5000.0 UP on Thu Aug 15 2024 02:01:13 GMT-0400 (Eastern Daylight Time)": "125000000000000000000"
+    },
+    "0xB0dEb259a566f071c62F4F740EB294F0F55AE4A6": {
+      "Swap of 11000.0 UP on Thu Aug 15 2024 20:48:29 GMT-0400 (Eastern Daylight Time)": "165000000000000000000"
+    },
+    "0xBCcf3780cD5EFe5cd73321dCBB86fEcFDA7d3d7e": {
+      "Swap of 1000000.0 UP on Fri Aug 16 2024 04:44:13 GMT-0400 (Eastern Daylight Time)": "15000000000000000000000"
+    },
+    "0x65CeB2927A89f25a7a56F56008D059adBEA54Cc2": {
+      "Swap of 2000000.0 UP on Fri Aug 16 2024 04:54:49 GMT-0400 (Eastern Daylight Time)": "30000000000000000000000"
+    },
+    "0xc0948A2f0B48A2AA8474f3DF54FD7C364225AD7d": {
+      "Swap of 1000683.0 UP on Fri Aug 16 2024 05:07:51 GMT-0400 (Eastern Daylight Time)": "15010245000000000000000"
+    },
+    "0x81Dd955D02D337DB81BA6c9C5F6213E647672052": {
+      "Swap of 8.701029500871797 UP on Mon Aug 19 2024 10:43:51 GMT-0400 (Eastern Daylight Time)": "130515442513076955"
+    },
+    "0x4846162806B025Dcd0759cACF9ec6F9474274282": {
+      "Swap of 59760.65759045037726 UP on Tue Aug 20 2024 14:57:25 GMT-0400 (Eastern Daylight Time)": "896409863856755658900",
+      "Swap of 89000.0 UP on Tue Aug 20 2024 15:37:03 GMT-0400 (Eastern Daylight Time)": "1335000000000000000000",
+      "Swap of 13030.0 UP on Fri Aug 23 2024 07:14:09 GMT-0400 (Eastern Daylight Time)": "130300000000000000000"
+    },
+    "0xFf4eC2057A4180A4Cd18FDEA144e53245e39869D": {
+      "Swap of 52735.0 UP on Wed Aug 21 2024 15:18:19 GMT-0400 (Eastern Daylight Time)": "791025000000000000000"
+    },
+    "0xD2BC5cb641aE6f7A880c3dD5Aee0450b5210BE23": {
+      "Swap of 460087.790394820666868 UP on Wed Aug 21 2024 20:38:29 GMT-0400 (Eastern Daylight Time)": "6901316855922310003020"
+    },
+    "0xde22DE740609532FC0F48287b7F258776bE814FD": {
+      "Swap of 4061698.0 UP on Thu Aug 22 2024 07:58:05 GMT-0400 (Eastern Daylight Time)": "60925470000000000000000",
+      "Swap of 334675.72 UP on Tue Sep 24 2024 11:31:27 GMT-0400 (Eastern Daylight Time)": "334675720000000000000"
+    },
+    "0xfF9dFc6110DEf605eB08532b5232051A1fb1F12E": {
+      "Swap of 50120.0 UP on Thu Aug 22 2024 17:46:21 GMT-0400 (Eastern Daylight Time)": "501200000000000000000"
+    },
+    "0x3bDbBe3ABBe6f7f3f8FB9d0C2484C8Ce8A76Df60": {
+      "Swap of 150064.5 UP on Thu Aug 22 2024 18:25:17 GMT-0400 (Eastern Daylight Time)": "1500645000000000000000"
+    },
+    "0x83540330a1A813Ce878D1675d2A98c9b023DC69E": {
+      "Swap of 1000.0 UP on Thu Aug 22 2024 19:09:25 GMT-0400 (Eastern Daylight Time)": "10000000000000000000",
+      "Swap of 132318.0 UP on Thu Aug 22 2024 19:10:47 GMT-0400 (Eastern Daylight Time)": "1323180000000000000000"
+    },
+    "0x06217CD389fe0B598CFAaDe7e2e3C8A544cedAd6": {
+      "Swap of 2730.0 UP on Sat Aug 24 2024 14:47:53 GMT-0400 (Eastern Daylight Time)": "27300000000000000000"
+    },
+    "0xF1D3Ae318edd8dAA3Bd97B24a6CCb6c3A8b581cF": {
+      "Swap of 57400.0 UP on Sat Aug 24 2024 15:58:17 GMT-0400 (Eastern Daylight Time)": "574000000000000000000"
+    },
+    "0x19Bc334ab56C18128c188a6543Acb49C84b43c2e": {
+      "Swap of 31124.0 UP on Sat Aug 24 2024 16:22:23 GMT-0400 (Eastern Daylight Time)": "311240000000000000000"
+    },
+    "0x0D8410643ae7a4d833C7219E5C6faDfa5Ce912CD": {
+      "Swap of 6689.0 UP on Sat Aug 24 2024 21:20:21 GMT-0400 (Eastern Daylight Time)": "66890000000000000000",
+      "Swap of 6040886.91196150762341855 UP on Sun Aug 25 2024 00:53:05 GMT-0400 (Eastern Daylight Time)": "60408869119615076234185"
+    },
+    "0x6B0EA34cC854316dd8784502Ff85C1CB24F800b4": {
+      "Swap of 1000.0 UP on Tue Aug 27 2024 05:09:01 GMT-0400 (Eastern Daylight Time)": "10000000000000000000"
+    },
+    "0x84284527483df52B5d37dbb4fB4119F6055288A1": {
+      "Swap of 17000.0 UP on Wed Aug 28 2024 09:52:15 GMT-0400 (Eastern Daylight Time)": "170000000000000000000"
+    },
+    "0xaA3600788b72863ff51C8f0dB5F10bB65fbFeAB4": {
+      "Swap of 122353.0 UP on Wed Aug 28 2024 13:42:01 GMT-0400 (Eastern Daylight Time)": "1223530000000000000000"
+    },
+    "0xcFd35259E3A468E7bDF84a95bCddAc0B614A9212": {
+      "Swap of 109999.0 UP on Thu Aug 29 2024 10:29:17 GMT-0400 (Eastern Daylight Time)": "1099990000000000000000"
+    },
+    "0x78d08a94CA2dEE362373ff5910F52ef3A0a2ba97": {
+      "Swap of 100900.0 UP on Thu Aug 29 2024 11:33:19 GMT-0400 (Eastern Daylight Time)": "1009000000000000000000"
+    },
+    "0xCA7632327567796e51920F6b16373e92c7823854": {
+      "Swap of 68200.0 UP on Thu Aug 29 2024 17:44:59 GMT-0400 (Eastern Daylight Time)": "341000000000000000000"
+    },
+    "0x968dcB921A822643Fa28CCa5f4CF6034399ab40e": {
+      "Swap of 11000.0 UP on Thu Aug 29 2024 22:04:07 GMT-0400 (Eastern Daylight Time)": "55000000000000000000"
+    },
+    "0xE6d7194F927a01c1682D5f10aEF0E7162c0C5834": {
+      "Swap of 3355.11 UP on Mon Sep 02 2024 20:25:37 GMT-0400 (Eastern Daylight Time)": "16775550000000000000"
+    },
+    "0x2fdD1FbB9793f4ac4e51CEb7a75660371796C19A": {
+      "Swap of 6543.0 UP on Mon Sep 09 2024 05:03:33 GMT-0400 (Eastern Daylight Time)": "19629000000000000000"
+    },
+    "0x895d036ed1a3BE41C30CEf01A135995fA12Fb207": {
+      "Swap of 3209.403608886211322 UP on Mon Sep 09 2024 11:01:51 GMT-0400 (Eastern Daylight Time)": "9628210826658633966"
+    },
+    "0x5990afF0E95b2C75B3727EA00B580Fc8E4DF27e9": {
+      "Swap of 105450.0 UP on Mon Sep 09 2024 12:35:19 GMT-0400 (Eastern Daylight Time)": "316350000000000000000"
+    },
+    "0x9D5611bf0DAdddb4441A709141d9229d7F6b3e47": {
+      "Swap of 1000.0 UP on Tue Sep 10 2024 10:31:45 GMT-0400 (Eastern Daylight Time)": "3000000000000000000"
+    },
+    "0xc2fB4B3EA53E10c88D193E709A81C4dc7aEC902e": {
+      "Swap of 10000.0 UP on Tue Sep 10 2024 10:37:55 GMT-0400 (Eastern Daylight Time)": "30000000000000000000"
+    },
+    "0x557DEd245bffa8F21CC2217776B210A882C1D2d8": {
+      "Swap of 15000.0 UP on Tue Sep 17 2024 06:31:13 GMT-0400 (Eastern Daylight Time)": "22500000000000000000"
+    },
+    "0xC8dfE3D00dE485bce147845a1df294292073F79a": {
+      "Swap of 0.0 UP on Tue Sep 24 2024 01:18:11 GMT-0400 (Eastern Daylight Time)": "0",
+      "Swap of 0.0 UP on Sat Oct 05 2024 06:40:19 GMT-0400 (Eastern Daylight Time)": "0",
+      "Swap of 0.0 UP on Sun Oct 06 2024 22:12:45 GMT-0400 (Eastern Daylight Time)": "0",
+      "Swap of 0.0 UP on Tue Oct 08 2024 22:36:33 GMT-0400 (Eastern Daylight Time)": "0"
+    },
+    "0x0C8993Ce05569E1B5Cb5E07AEc439799175CeCa8": {
+      "Swap of 11465.0 UP on Thu Sep 26 2024 11:53:25 GMT-0400 (Eastern Daylight Time)": "11465000000000000000"
+    },
+    "0x3074517c5F5428f42C74543C68001E0Ca86FE7dd": {
+      "Swap of 0.0000000004 UP on Mon Sep 30 2024 09:50:57 GMT-0400 (Eastern Daylight Time)": "0",
+      "Swap of 400000000.0 UP on Mon Sep 30 2024 09:51:47 GMT-0400 (Eastern Daylight Time)": "0"
+    },
+    "0x0cc296c8d7Dd9342dbb07B343f882c09223c56Fd": {
+      "Swap of 154531.0 UP on Mon Sep 30 2024 11:09:39 GMT-0400 (Eastern Daylight Time)": "0"
+    },
+    "0xB34567C4cA697b39F72e1a8478f285329A98ed1b": {
+      "Swap of 89156669.286171712764666 UP on Wed Oct 02 2024 10:03:17 GMT-0400 (Eastern Daylight Time)": "0"
+    },
+    "0xA788E0586409FA4eaF986E24604003adaa3dcC9d": {
+      "Swap of 10062.3 UP on Thu Oct 03 2024 02:18:17 GMT-0400 (Eastern Daylight Time)": "0"
+    },
+    "0xFC6b98a5A28cB374c9ce08363E374a795462252B": {
+      "Swap of 161000.0 UP on Fri Oct 04 2024 02:43:43 GMT-0400 (Eastern Daylight Time)": "0"
+    },
+    "0x9492510BbCB93B6992d8b7Bb67888558E12DCac4": {
+      "Swap of 2193085.0237404643 UP on Fri Oct 04 2024 20:21:33 GMT-0400 (Eastern Daylight Time)": "0"
+    },
+    "0x0aF9431E73b9ccd393242804c221Dc92C9017345": {
+      "Swap of 2000.0 UP on Sun Oct 06 2024 06:42:37 GMT-0400 (Eastern Daylight Time)": "0"
+    },
+    "0x31da8F32BB76F0d2c1CAa14B79087CA2Fbe0277E": {
+      "Swap of 184333.0 UP on Sun Oct 06 2024 12:26:53 GMT-0400 (Eastern Daylight Time)": "0"
+    },
+    "0x8851362132466e9a1836921f59D8a20d6FBF950b": {
+      "Swap of 79999.0 UP on Sun Oct 06 2024 23:12:13 GMT-0400 (Eastern Daylight Time)": "0"
+    },
+    "0x8c9b739df17131Dc670964EeCe0861cB209Ce2d4": {
+      "Swap of 506676.69 UP on Mon Oct 07 2024 08:13:03 GMT-0400 (Eastern Daylight Time)": "0"
+    }
+  }
+}

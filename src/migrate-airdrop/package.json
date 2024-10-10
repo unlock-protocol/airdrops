@@ -1,0 +1,17 @@
+{
+  "name": "migrate-airdrop",
+  "version": "1.0.0",
+  "license": "MIT",
+  "type": "module",
+  "dependencies": {
+    "csv": "^6.3.10",
+    "ethers": "^6.13.3",
+    "graphql": "^16.9.0",
+    "graphql-request": "^7.1.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.5.3"
+  },
+  "scripts": {
+    "start": "ts-node index.ts"
+  }
+}
