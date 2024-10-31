@@ -10,7 +10,11 @@ const baseProvider = new ethers.JsonRpcProvider('https://rpc.unlock-protocol.com
 
 const ERC20_ABI = ['function balanceOf(address) view returns (uint256)']
 
-const excludedRecipients = ["0xF5C28ce24Acf47849988f147d5C75787c0103534"]
+const excludedRecipients = [
+  "0xF5C28ce24Acf47849988f147d5C75787c0103534", // Unlock Labs
+  "0x3074517c5F5428f42C74543C68001E0Ca86FE7dd", // Unlock Protocol Foundation
+  "0xB34567C4cA697b39F72e1a8478f285329A98ed1b", // Unlock DAO timelock
+]
 
 // in %
 const BONUSES = {
@@ -64,12 +68,14 @@ const processTransaction = async (transaction) => {
   const now = Math.floor(Date.now() / 1000)
   const weeks = Math.min(10, Math.floor((now - swapTime) / 604800))
   const bonus = (amount * BigInt((BONUSES[weeks] || 0) * 100)) / BigInt(10000)
-  console.log(`> ${recipient} held ${ethers.formatUnits(amount)} UP for ${weeks} weeks. Bonus: ${ethers.formatUnits(bonus)}`)
-  swappers[recipient] = (swappers[recipient] || 0n) + amount
-  if (!output.rewards[recipient]) {
-    output.rewards[recipient] = {}
+  if (bonus > 0) {
+    console.log(`> ${recipient} held ${ethers.formatUnits(amount)} UP for ${weeks} weeks. Bonus: ${ethers.formatUnits(bonus)}`)
+    swappers[recipient] = (swappers[recipient] || 0n) + amount
+    if (!output.rewards[recipient]) {
+      output.rewards[recipient] = {}
+    }
+    output.rewards[recipient][`Swap of ${ethers.formatUnits(amount)} UP on ${new Date(swapTime * 1000)}`] = bonus
   }
-  output.rewards[recipient][`Swap of ${ethers.formatUnits(amount)} UP on ${new Date(swapTime * 1000)}`] = bonus
 }
 
 // Run
