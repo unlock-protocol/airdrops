@@ -1,0 +1,10 @@
+{
+  "name": "protocol-users",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "graphql": "^16.10.0",
+    "graphql-request": "^7.1.2"
+  }
+}
