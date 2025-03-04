@@ -1,0 +1,209 @@
+"""
+The `JSON` scalar type represents JSON values as specified by [ECMA-404](http://www.ecma-international.org/publications/files/ECMA-ST/ECMA-404.pdf).
+"""
+scalar JSON
+
+scalar BigInt
+
+type PageInfo {
+  hasNextPage: Boolean!
+  hasPreviousPage: Boolean!
+  startCursor: String
+  endCursor: String
+}
+
+type Meta {
+  status: JSON
+}
+
+type Query {
+  daoProposal(id: String!): daoProposal
+  daoProposals(where: daoProposalFilter, orderBy: String, orderDirection: String, before: String, after: String, limit: Int): daoProposalPage!
+  daoVote(id: String!): daoVote
+  daoVotes(where: daoVoteFilter, orderBy: String, orderDirection: String, before: String, after: String, limit: Int): daoVotePage!
+  daoDelegate(id: String!): daoDelegate
+  daoDelegates(where: daoDelegateFilter, orderBy: String, orderDirection: String, before: String, after: String, limit: Int): daoDelegatePage!
+  points(wallet: String!): points
+  pointss(where: pointsFilter, orderBy: String, orderDirection: String, before: String, after: String, limit: Int): pointsPage!
+  _meta: Meta
+}
+
+type daoProposal {
+  id: String!
+  chainId: BigInt!
+}
+
+type daoProposalPage {
+  items: [daoProposal!]!
+  pageInfo: PageInfo!
+  totalCount: Int!
+}
+
+input daoProposalFilter {
+  AND: [daoProposalFilter]
+  OR: [daoProposalFilter]
+  id: String
+  id_not: String
+  id_in: [String]
+  id_not_in: [String]
+  id_contains: String
+  id_not_contains: String
+  id_starts_with: String
+  id_ends_with: String
+  id_not_starts_with: String
+  id_not_ends_with: String
+  chainId: BigInt
+  chainId_not: BigInt
+  chainId_in: [BigInt]
+  chainId_not_in: [BigInt]
+  chainId_gt: BigInt
+  chainId_lt: BigInt
+  chainId_gte: BigInt
+  chainId_lte: BigInt
+}
+
+type daoVote {
+  id: String!
+  chainId: BigInt!
+  proposal: String!
+  voter: String!
+}
+
+type daoVotePage {
+  items: [daoVote!]!
+  pageInfo: PageInfo!
+  totalCount: Int!
+}
+
+input daoVoteFilter {
+  AND: [daoVoteFilter]
+  OR: [daoVoteFilter]
+  id: String
+  id_not: String
+  id_in: [String]
+  id_not_in: [String]
+  id_contains: String
+  id_not_contains: String
+  id_starts_with: String
+  id_ends_with: String
+  id_not_starts_with: String
+  id_not_ends_with: String
+  chainId: BigInt
+  chainId_not: BigInt
+  chainId_in: [BigInt]
+  chainId_not_in: [BigInt]
+  chainId_gt: BigInt
+  chainId_lt: BigInt
+  chainId_gte: BigInt
+  chainId_lte: BigInt
+  proposal: String
+  proposal_not: String
+  proposal_in: [String]
+  proposal_not_in: [String]
+  proposal_contains: String
+  proposal_not_contains: String
+  proposal_starts_with: String
+  proposal_ends_with: String
+  proposal_not_starts_with: String
+  proposal_not_ends_with: String
+  voter: String
+  voter_not: String
+  voter_in: [String]
+  voter_not_in: [String]
+  voter_contains: String
+  voter_not_contains: String
+  voter_starts_with: String
+  voter_ends_with: String
+  voter_not_starts_with: String
+  voter_not_ends_with: String
+}
+
+type daoDelegate {
+  chainId: BigInt!
+  id: String!
+  from: String!
+  to: String!
+}
+
+type daoDelegatePage {
+  items: [daoDelegate!]!
+  pageInfo: PageInfo!
+  totalCount: Int!
+}
+
+input daoDelegateFilter {
+  AND: [daoDelegateFilter]
+  OR: [daoDelegateFilter]
+  chainId: BigInt
+  chainId_not: BigInt
+  chainId_in: [BigInt]
+  chainId_not_in: [BigInt]
+  chainId_gt: BigInt
+  chainId_lt: BigInt
+  chainId_gte: BigInt
+  chainId_lte: BigInt
+  id: String
+  id_not: String
+  id_in: [String]
+  id_not_in: [String]
+  id_contains: String
+  id_not_contains: String
+  id_starts_with: String
+  id_ends_with: String
+  id_not_starts_with: String
+  id_not_ends_with: String
+  from: String
+  from_not: String
+  from_in: [String]
+  from_not_in: [String]
+  from_contains: String
+  from_not_contains: String
+  from_starts_with: String
+  from_ends_with: String
+  from_not_starts_with: String
+  from_not_ends_with: String
+  to: String
+  to_not: String
+  to_in: [String]
+  to_not_in: [String]
+  to_contains: String
+  to_not_contains: String
+  to_starts_with: String
+  to_ends_with: String
+  to_not_starts_with: String
+  to_not_ends_with: String
+}
+
+type points {
+  wallet: String!
+  points: Int
+}
+
+type pointsPage {
+  items: [points!]!
+  pageInfo: PageInfo!
+  totalCount: Int!
+}
+
+input pointsFilter {
+  AND: [pointsFilter]
+  OR: [pointsFilter]
+  wallet: String
+  wallet_not: String
+  wallet_in: [String]
+  wallet_not_in: [String]
+  wallet_contains: String
+  wallet_not_contains: String
+  wallet_starts_with: String
+  wallet_ends_with: String
+  wallet_not_starts_with: String
+  wallet_not_ends_with: String
+  points: Int
+  points_not: Int
+  points_in: [Int]
+  points_not_in: [Int]
+  points_gt: Int
+  points_lt: Int
+  points_gte: Int
+  points_lte: Int
+}
